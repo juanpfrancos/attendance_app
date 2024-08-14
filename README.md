@@ -38,6 +38,7 @@ This web application developed in Django allows users to efficiently track stude
 
 Below are the steps to install and run the application in your local environment.
 
+
 1. Clone the repository from GitHub:
 
    ```
@@ -50,10 +51,12 @@ Below are the steps to install and run the application in your local environment
    cd student-attendance-registration-system-django
    ```
 
-3. Install the dependencies:
+3. Create a virtual environment and install Django:
 
    ```
-   pip install -r requirements.txt
+   python3 -m venv .venv
+   source .venv/scripts/activate
+   pip install django
    ```
 
 4. Apply database migrations:
